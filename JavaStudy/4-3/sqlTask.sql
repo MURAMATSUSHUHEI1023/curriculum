@@ -30,13 +30,13 @@ GROUP BY store_code
 INSERT INTO goods_table
 (goods_code,goods_name,price,update_day)
 VALUES
-('M001','マフラー','4500','2023-02-14');
+('M001','マフラー','4500',NOW());
 -- 7. 在庫テーブルの商品コード='S987'、かつ、店舗コード='EA01'に対して、「在庫数=10、更新日付=本日日付」で更新しなさい。※実行後のSELECT結果も貼付すること。
 -- [回答]
 UPDATE stock_table
 SET 
 quantity= '20', 
-update_day= '2023-02-14'
+update_day= 'NOW()'
 WHERE goods_code = 'S987'
 AND   store_code= 'EA01';
 -- 8. 7で更新した商品を削除しなさい。※実行後のSELECT結果も貼付すること。
