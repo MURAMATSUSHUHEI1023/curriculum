@@ -11,13 +11,11 @@ margin:0 auto;
 
 #wrapper {
     width: 400px;
-    /* margin: auto; */
 	height: 450px;
 }
 
 .header {
 	height: 100px;
-    /* width: 400px; */
 	background: #141f40;
 }
 .left {
@@ -60,6 +58,5 @@ margin:0 auto;
 }
 .footer {
 	height:100px;
-    /* width: 400px; */
 	background: #d98d30;
 }

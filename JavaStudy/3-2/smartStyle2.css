@@ -9,9 +9,6 @@
     .left{
         width: 100px;
     }
-    /* .content-top{
-        float: left;
-    } */
     .content-top-left{
     width: 125px;
     }
@@ -69,11 +66,11 @@
     .content-bottom{
         width: 150px;
         height: 100px;
-        /* float: none; */
+    
     }
     .footer{
         width: 150px;
-        /* float: none; */
+
     } 
 }
 
